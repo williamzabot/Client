@@ -3,7 +3,7 @@ from socket import *
 # no servidor é utilizada a connection para enviar uma mensagem para o cliente
 # enquanto no cliente é utilizado o socketServer
 serverHost = "localhost"
-serverPort = 1024
+serverPort = 50001
 socketClient = socket(AF_INET, SOCK_STREAM)
 print('Cliente solicitando conexão com o servidor ...')
 socketClient.connect((serverHost, serverPort))
